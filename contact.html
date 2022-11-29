@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Уеб сайт на фирма Хапка ООД | За връзка с нас - bite@gmail.com или тел.  +359 112 2222 333.">
+    <meta name="keywords" content="храна, продукти, хапка, здравословно хранене, здраве, меню, контакти">
+    <title>Хапка | Контакти</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- HEADER -->
+            <header>
+
+                <div class="logo-holder">
+                    <a href="index.html"> <img src="images/logo.png" alt="лого" id="logo"></a>
+
+                </div>
+                <nav>
+                    <ul class="top-nav">
+                        <li><a href="meals.html" title="Меню">Меню</a></li>
+                        <li><a href="subscription.html" title="Абонамент">Абонамент</a></li>
+                        <li><a href="gallery.html" title="Галерия">Галерия</a></li>
+                        <li><a href="promo.html" title="Новини">Новини</a></li>
+                        <li><a href="about.html" title="За нас">За нас</a></li>
+                        <li><a href="contact.html" title="Контакти">Контакти</a></li>
+
+                    </ul>
+                </nav>
+
+            </header>
+            <div class="contact-content">
+                <!-- FAQ -->
+                <div class="faq" id="faq">
+                    <h2>Често задавани въпроси</h2>
+                    <div class="questions">
+                        <h3 onclick="myFunction('answer1')">Какъв е произходът на продуктите? <span>&#8595;</span>
+                        </h3>
+                        <div id="answer1">
+                            <p>Произходът е български, с изключение на някои подправки, които не виреят на
+                                територията на България. Работим с фермери от всички краища на страната и се стараем
+                                да подкрепяме семейни бизнеси.</p>
+                        </div>
+                        <h3 onclick="myFunction('answer2')">Мога ли да пропусна месечна доставка?
+                            <span>&#8595;</span>
+                        </h3>
+                        <div id="answer2">
+                            <p>Да! За целта е нужно да се свържете с нас чрез
+                                <a href="#contact">контактната форма</a> или на нашия телефонен номер
+                                +359 112 2222 333 поне 2 седмици преди датата на очаквана доставка. По всяко време
+                                може да се откажете от абонамент по същия начин.
+                            </p>
+                        </div>
+                        <h3 onclick="myFunction('answer3')">Как да проследя доставката? <span>&#8595;</span> </h3>
+                        <div id="answer3">
+                            <p>Три дни преди доставката ще получите email на посочената при абонамент електронна
+                                поща
+                                с информация за приблизителен час на доставка и телефонен номер на куриер. В случай,
+                                че не получавате такава информация, моля свържете се с нас. </p>
+                        </div>
+                        <h3 onclick="myFunction('answer4')">Как мога да променя вида на абонамента?
+                            <span>&#8595;</span>
+                        </h3>
+                        <div id="answer4">
+                            <p>
+                                Възможно е сами да направите това, чрез линка в
+                                съобщенията, които получавате след успешна доставка. В случай, че сте сгрешили
+                                абонамента при първа поръчка, нужно е да се свържете с нас чрез
+                                <a href="#contact">контактната ни форма</a> или на нашия телефонен номер
+                                +359 112 2222 333.
+                            </p>
+                        </div>
+                        <h3 onclick="myFunction('answer5')">Рециклируеми ли са опаковките? <span>&#8595;</span></h3>
+                        <div id="answer5">
+                            <p>Да! Насърчаваме разделното събиране на отпадъци, както и zero waste продуктите.
+                                Повече информация, относно как да рециклираме: <a href="https://www.ecopack.bg/bg"
+                                    target="_blank"> &#9851;&#65039;</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTACT FORM -->
+
+                <!-- CONTAINER -->
+                <h2>Не намери отговор на своя въпрос?</h2>
+
+                <section id="contact">
+                    <div class="social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-header">
+                            <h2>Свържи се с нас!</h2>
+
+                        </div>
+                        <form action="contact.html" class="contact-form">
+                            <input type="text" placeholder="Твоето име" name="name" required>
+                            <input type="email" placeholder="email" name="email" required>
+                            <textarea name="message" placeholder="Твоето съобщение" cols="30" rows="10"
+                                required></textarea>
+                            <input type="submit" value="ИЗПРАТИ">
+                        </form>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.0206133689953!2d27.921412315008272!3d43.20905697913902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f238c27870ee554!2z0JrQsNGC0LXQtNGA0LAgItCY0L3RhNC-0YDQvNCw0YLQuNC60LAiIC0g0JjQutC-0L3QvtC80LjRh9C10YHQutC4INGD0L3QuNCy0LXRgNGB0LjRgtC10YIgLSDQktCw0YDQvdCw!5e0!3m2!1sbg!2sbg!4v1619174273171!5m2!1sbg!2sbg"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+
+            <div class="footer-content">
+                <div class="left-footer">
+                    <address>
+                        <span> 9002 Варна Център, Варна</span>
+                        <span>бул. „Княз Борис I-ви“ 77</span>
+                        <a href="mailto:bite@gmail.com">bite@gmail.com</a>
+                        <span>+359 112 2222 333</span>
+                    </address>
+                    <div class="social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                    </div>
+                </div>
+                <div class="foot-nav">
+
+                    <nav class="bottom-nav">
+                        <ul>
+                            <li><a href="meals.html" title="Меню">Меню</a></li>
+                            <li><a href="subscription.html" title="Абонамент">Абонамент</a></li>
+                            <li><a href="gallery.html" title="Галерия">Галерия</a></li>
+                            <li><a href="promo.html" title="Новини">Новини</a></li>
+                            <li><a href="about.html" title="За нас">За нас</a></li>
+                            <li><a href="contact.html" title="Контакти">Контакти</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="contact.html#faq" title="Често задавани въпроси">ЧЗВ</a></li>
+                            <li><a href="promo.html" title="Промо код">Промоции</a></li>
+                            <li><a href="subscription.html#price-anchor" title="Цени">Цени</a></li>
+                            <li><a href="subscription.html#delivery" title="Доставка">Доставка</a></li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="copyright">&copy; 2021 Хапка ООД - Всички права запазени | Сайт с учебна цел</div>
+
+        </footer>
+    </div>
+</body>
+
+</html>

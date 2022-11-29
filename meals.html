@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Уеб сайт на фирма Хапка ООД | Лятното ни меню включва салати, основни ястия с месо и десерти.">
+    <meta name="keywords" content="храна, продукти, хапка, здравословно хранене, здраве, меню, салата, месо, десерт">
+    <title>Хапка | Меню</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- HEADER -->
+            <header>
+
+                <div class="logo-holder">
+                    <a href="index.html"> <img src="images/logo.png" alt="лого" id="logo"></a>
+
+                </div>
+                <nav>
+                    <ul class="top-nav">
+                        <li><a href="meals.html" title="Меню">Меню</a></li>
+                        <li><a href="subscription.html" title="Абонамент">Абонамент</a></li>
+                        <li><a href="gallery.html" title="Галерия">Галерия</a></li>
+                        <li><a href="promo.html" title="Новини">Новини</a></li>
+                        <li><a href="about.html" title="За нас">За нас</a></li>
+                        <li><a href="contact.html" title="Контакти">Контакти</a></li>
+
+                    </ul>
+                </nav>
+
+            </header>
+
+            <!-- MEALS SLIDER -->
+            <section class="meal-slider first">
+                <div class="top-slider">
+                    <div class="left">
+                        <div class="menu-header"><button class="prev">
+                                &#8592; </button>
+                            <h2>Меню за месец юни</h2>
+                            <button class="next">&#8594;</button>
+                        </div>
+
+                        <div class="meal-caption">
+
+                            <span>Салата с ягоди и спанак</span>
+                            Сладко киселите ягоди се съчетават перфектно със специфичния вкус на
+                            спанака, солеността на сиренето и вкуса на орехи и лук.
+                            <span>Месо на грил със зеленчуци</span>
+                            Абсолютна класика през летните месеци. Избор между пилешко, свинско и риба.
+                            <span>Бананови палачинки</span>
+                            Изключително лесни за приготвяне и само с 3 съставки. Без брашно и захар!
+                        </div>
+                    </div>
+
+                    <div class="slider-img">
+                        <img src="images/choice-salad.jpg" alt="ястие" id="main-img">
+                    </div>
+
+                </div>
+                <div class="bottom-slider">
+                    <ul>
+                        <li><img src="images/choice-salad.jpg" alt="салата с ягоди и спанак" class="slider-img"></li>
+                        <li><img src="images/choice-main.jpg" alt="месо със зеленчуци" class="slider-img"></li>
+                        <li><img src="images/choice-dessert.jpg" alt="бананови палачинки" class="slider-img"></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="meal-slider second" style="display: none;">
+                <div class="top-slider">
+                    <div class="left">
+                        <div class="menu-header"><button class="prev">
+                                &#8592; </button>
+                            <h2>Меню за месец юли</h2>
+                            <button class="next">&#8594;</button>
+                        </div>
+
+                        <div class="meal-caption">
+
+                            <span>Салата с печен сладък картоф</span>
+                            Тази вкусна салата съчетава сладко и солено в комбинация с аромата на печени зеленчуци.
+                            <span>Риба с броколи</span>
+                            Рибата е изключителен източник на висококачествени протеини и витамини, а броколите на вит.
+                            С, вит. К, бета-каротин, фолиева киселина и витамини от групата В.
+                            <span>Здравословен шоколад</span>
+                            Консумацията на храни с високо съдържание на полифеноли, какъвто е шоколадът, снижава
+                            рисковите фактори за сърдечносъдови заболявания.
+                        </div>
+                    </div>
+
+                    <div class="slider-img1">
+                        <img src="images/choice1-salad.png" alt="ястие" id="main-img1">
+                    </div>
+
+                </div>
+
+                <div class="bottom-slider">
+                    <ul>
+                        <li><img src="images/choice1-salad.png" alt="салата с печени зеленчуци" class="slider-img1">
+                        </li>
+                        <li><img src="images/choice11-main.png" alt="риба със зеленчуци" class="slider-img1"></li>
+                        <li><img src="images/choice1-dessert.jpg" alt="Здравословен шоколад" class="slider-img1"></li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- FOOTER -->
+            <footer>
+
+                <div class="footer-content">
+                    <div class="left-footer">
+                        <address>
+                            <span> 9002 Варна Център, Варна</span>
+                            <span>бул. „Княз Борис I-ви“ 77</span>
+                            <a href="mailto:bite@gmail.com">bite@gmail.com</a>
+                            <span>+359 112 2222 333</span>
+                        </address>
+                        <div class="social">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-pinterest"></a>
+                        </div>
+                    </div>
+                    <div class="foot-nav">
+
+                        <nav class="bottom-nav">
+                            <ul>
+                                <li><a href="meals.html" title="Меню">Меню</a></li>
+                                <li><a href="subscription.html" title="Абонамент">Абонамент</a></li>
+                                <li><a href="gallery.html" title="Галерия">Галерия</a></li>
+                                <li><a href="promo.html" title="Новини">Новини</a></li>
+                                <li><a href="about.html" title="За нас">За нас</a></li>
+                                <li><a href="contact.html" title="Контакти">Контакти</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="contact.html#faq" title="Често задавани въпроси">ЧЗВ</a></li>
+                                <li><a href="promo.html" title="Промо код">Промоции</a></li>
+                                <li><a href="subscription.html#price-anchor" title="Цени">Цени</a></li>
+                                <li><a href="subscription.html#delivery" title="Доставка">Доставка</a></li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="copyright">&copy; 2021 Хапка ООД - Всички права запазени | Сайт с учебна цел</div>
+
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
